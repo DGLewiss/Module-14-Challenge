@@ -2,9 +2,9 @@
 This is my repository for Module 14
 ___
 ## Tune the Baseline Trading Algorithm
+![Image](./Images/Alterered_Training_Window.png)
 ### Adjusting the size of the Training Dataset
 From the analysis there was a large change when increasing the training window to 12 months. With reference to the image above we can observe that the 12 month training window straetgy performance never produced a cumulative return greater than 1.0 aside from in the middle of 2020 June, ending the analysed period on a culumaltive return of approximately 0.9. 
-
 
 ### Adjusting the size of the SMA input Features
 When increasing the SMA by 5 times the original model input features we can see a small increase in cumulative returns at the start of the period but otherwise it trades identical to the adjusted training data set. 
